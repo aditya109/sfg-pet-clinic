@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'io.github.aditya109.sfg-pet-clinic' is invalid and this project uses 'io.github.aditya109.sfgpetclinic' instead.
+* The original package name 'io.github.aditya109.sfg-pet-clinic' is invalid and this project uses 'sfgpetclinic' instead.
 
 # Getting Started
 
