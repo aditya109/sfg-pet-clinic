@@ -1,11 +1,11 @@
 package io.github.aditya109.sfgpetclinic.services.map;
 
 import io.github.aditya109.sfgpetclinic.model.Pet;
-import io.github.aditya109.sfgpetclinic.services.CrudService;
+import io.github.aditya109.sfgpetclinic.services.PetService;
 
 import java.util.Set;
 
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
 
 
     @Override

@@ -1,11 +1,11 @@
 package io.github.aditya109.sfgpetclinic.services.map;
 
 import io.github.aditya109.sfgpetclinic.model.Owner;
-import io.github.aditya109.sfgpetclinic.services.CrudService;
+import io.github.aditya109.sfgpetclinic.services.OwnerService;
 
 import java.util.Set;
 
-public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements CrudService<Owner, Long> {
+public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
 
     @Override
@@ -31,5 +31,10 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
     @Override
     public Owner findById(Long id) {
         return super.findById(id);
+    }
+
+    @Override
+    public Owner findByLastName(String lastName) {
+        return null;
     }
 }
