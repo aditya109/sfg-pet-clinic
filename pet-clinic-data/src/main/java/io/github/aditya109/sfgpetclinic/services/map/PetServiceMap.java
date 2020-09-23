@@ -2,9 +2,11 @@ package io.github.aditya109.sfgpetclinic.services.map;
 
 import io.github.aditya109.sfgpetclinic.model.Pet;
 import io.github.aditya109.sfgpetclinic.services.PetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
 
 

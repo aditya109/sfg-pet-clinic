@@ -2,9 +2,11 @@ package io.github.aditya109.sfgpetclinic.services.map;
 
 import io.github.aditya109.sfgpetclinic.model.Owner;
 import io.github.aditya109.sfgpetclinic.services.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
 
